@@ -1,3 +1,5 @@
+Build the containers with the command 'docker-compose up -d --build'
+
 Remember to put the host of the Wordpress as the IP of the container
 To show the container IP use the command 'docker inspect 8271e7c28ea0 | grep IP', the number is the container ID
 Change the location of the nginx to 'try_files $uri $uri/ index.php;' at nano /etc/nginx/conf.d/default.conf
